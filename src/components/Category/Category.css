@@ -1,0 +1,16 @@
+.title{
+    opacity: 0;
+}
+.title.animate {
+    opacity: 1;
+    animation: scale-center 2s ease 0s 1 normal forwards;
+}
+@keyframes scale-center {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
